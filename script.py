@@ -1,160 +1,169 @@
-# conditionals 
+# # conditionals 
 
-# operators 
+# # operators 
 
-# 1)comparison  operator
-# 2)logical operator
+# # 1)comparison  operator
+# # 2)logical operator
 
-# < , > , == , !=  <= , >=
-# entity < entity  ==================> boolean
-# <  ==> less than
-# >  ==> greate than
-# <=  ==> less than or equal to
-# >=  ==> greater then or equal to
-# ==  ==> equal tham
-# !=  ==> not equal
+# # < , > , == , !=  <= , >=
+# # entity < entity  ==================> boolean
+# # <  ==> less than
+# # >  ==> greate than
+# # <=  ==> less than or equal to
+# # >=  ==> greater then or equal to
+# # ==  ==> equal tham
+# # !=  ==> not equal
 
-a = 10
-b = 20
-print(a < b)
-print(11 < 10)  # False
-print(33 > 12)  # True
-print(11 <= 11) # True
-print(12 >= 11) # True
-print(12 >= 12) # True
-print(33 == 4)  # False
-print(22 != 4)  # True
-print(11 == 23) # False
+# a = 10
+# b = 20
+# print(a < b)
+# print(11 < 10)  # False
+# print(33 > 12)  # True
+# print(11 <= 11) # True
+# print(12 >= 11) # True
+# print(12 >= 12) # True
+# print(33 == 4)  # False
+# print(22 != 4)  # True
+# print(11 == 23) # False
 
-# or and  not
+# # or and  not
 
-# and
-# True  and  True  ==> True
-# False and  True  ==> False
-# True  and  False ==> False
-# False and  False ==> False
+# # and
+# # True  and  True  ==> True
+# # False and  True  ==> False
+# # True  and  False ==> False
+# # False and  False ==> False
 
-#or
+# #or
 
-# True  or  True  ==> True
-# False or  True  ==> True
-# True  or  False ==> True
-# False or  False ==> False
+# # True  or  True  ==> True
+# # False or  True  ==> True
+# # True  or  False ==> True
+# # False or  False ==> False
 
-# not 
+# # not 
 
-#True ==> False
-#False ==> True 
+# #True ==> False
+# #False ==> True 
 
-# True  and  True  ==> True
-# False and  True  ==> False
-# True  and  False ==> False
-# False and  False ==> False
+# # True  and  True  ==> True
+# # False and  True  ==> False
+# # True  and  False ==> False
+# # False and  False ==> False
 
-print(12 < 13 and 7 == 7)   # True
-print(12 >= 13 and 7 != 6)  # False
-print(12 == 11 and 7 == 8)  # False
-print(12 > 11 and 7 == 8)   #False
-
-
-
-print(12 < 13 or 7 == 7)    # True
-print(12 >= 13 or 7 != 6)   # True
-print(12 == 11 or 7 == 8)   # False
-print(12 > 11 or 7 == 8)    # True
-
-print(not True)
-print(not False)
-print(not 8==8)
+# print(12 < 13 and 7 == 7)   # True
+# print(12 >= 13 and 7 != 6)  # False
+# print(12 == 11 and 7 == 8)  # False
+# print(12 > 11 and 7 == 8)   #False
 
 
-# conditional statement 
-# single input =====>    multiple statement
-#numberOfT > 0 and  numberOfT <= 5  ===> 5%
-#numberOfT > 5 and  numberOfT <= 10 ===> 10%
-#numberOfT > 10                     ===> 30%
 
-# if(condition):
-#     # statement 1
-# else:
-#     # statement 2
+# print(12 < 13 or 7 == 7)    # True
+# print(12 >= 13 or 7 != 6)   # True
+# print(12 == 11 or 7 == 8)   # False
+# print(12 > 11 or 7 == 8)    # True
 
-
-numberOfT = 11
-# if(numberOfT  > 0 and numberOfT <= 5):
-#     print(" 5 % discount ")
-
-# if(numberOfT  > 5 and numberOfT <= 10):
-#     print('10 % disocunt')
-
-# if(numberOfT  > 10):
-#     print('30 % disocunt')
+# print(not True)
+# print(not False)
+# print(not 8==8)
 
 
-# if(numberOfT  > 0 and numberOfT <= 5):
-#     print(" 5 % discount ")
+# # conditional statement 
+# # single input =====>    multiple statement
+# #numberOfT > 0 and  numberOfT <= 5  ===> 5%
+# #numberOfT > 5 and  numberOfT <= 10 ===> 10%
+# #numberOfT > 10                     ===> 30%
 
-# elif(numberOfT  > 5 and numberOfT <= 10):
-#     print('10 % disocunt')
+# # if(condition):
+# #     # statement 1
+# # else:
+# #     # statement 2
 
-# elif(numberOfT  > 10):
-#     print('30 % disocunt')
+
+# numberOfT = 11
+# # if(numberOfT  > 0 and numberOfT <= 5):
+# #     print(" 5 % discount ")
+
+# # if(numberOfT  > 5 and numberOfT <= 10):
+# #     print('10 % disocunt')
+
+# # if(numberOfT  > 10):
+# #     print('30 % disocunt')
 
 
-marksA = 66
+# # if(numberOfT  > 0 and numberOfT <= 5):
+# #     print(" 5 % discount ")
+
+# # elif(numberOfT  > 5 and numberOfT <= 10):
+# #     print('10 % disocunt')
+
+# # elif(numberOfT  > 10):
+# #     print('30 % disocunt')
+
+
+# marksA = 66
+# # if(marksA > 90):
+# #     print('Grade A')
+# # if(marksA > 75):
+# #     print('Grade B')
+# # if(marksA > 65):
+# #     print('Grade C')
+
 # if(marksA > 90):
 #     print('Grade A')
-# if(marksA > 75):
+# elif(marksA > 75):
 #     print('Grade B')
-# if(marksA > 65):
+# elif(marksA > 65):
 #     print('Grade C')
 
-if(marksA > 90):
-    print('Grade A')
-elif(marksA > 75):
-    print('Grade B')
-elif(marksA > 65):
-    print('Grade C')
 
-
-# not operator with list 
-# input
+# # not operator with list 
+# # input
 
 
 
-# condition statement 
+# # condition statement 
 
-numT  = 45
+# numT  = 45
+# # if(numT > 0 and numT <= 5):
+# #     print("5 % discount")
+# # if(numT > 5 and numT <= 10):
+# #     print("10 % discount")
+# # if(numT > 5 ):
+# #     print("20 % discount")
+
+
 # if(numT > 0 and numT <= 5):
 #     print("5 % discount")
-# if(numT > 5 and numT <= 10):
+# elif(numT > 5 and numT <= 10):
 #     print("10 % discount")
-# if(numT > 5 ):
+# elif(numT > 5 ):
 #     print("20 % discount")
 
 
-if(numT > 0 and numT <= 5):
-    print("5 % discount")
-elif(numT > 5 and numT <= 10):
-    print("10 % discount")
-elif(numT > 5 ):
-    print("20 % discount")
+# marks2 = 92
+# # if(marks2 > 90):
+# #     print("Grade A")
+# # if(marks2 > 75):
+# #     print("Grade B")
+# # if(marks2 > 65):
+# #     print("Grade C")
 
-
-marks2 = 92
 # if(marks2 > 90):
 #     print("Grade A")
-# if(marks2 > 75):
+# elif(marks2 > 75):
 #     print("Grade B")
-# if(marks2 > 65):
+# elif(marks2 > 65):
 #     print("Grade C")
 
-if(marks2 > 90):
-    print("Grade A")
-elif(marks2 > 75):
-    print("Grade B")
-elif(marks2 > 65):
-    print("Grade C")
+
+# q = 11
+# t = 3
+
+# if (q > t):
+#     print("q is greater")
+# else:
+#     print("t is greater")
 
 
 
